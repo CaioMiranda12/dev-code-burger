@@ -12,6 +12,7 @@ routes.get('/', async (request, response) => {
     name: 'Caio',
     email: 'caioclm02@gmail.com',
     password_hash: 'h2s4e32d',
+    admin: true,
   })
   return response.json(user)
 })
